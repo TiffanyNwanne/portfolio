@@ -40,7 +40,22 @@
 						list-style: none;
 						padding: 0;
 					}
-				
+				        		#sidebar li {
+						margin: 10px 0;
+					}
+					@media screen and (max-width: 736px) {
+    #sidebar {
+      display: block !important;
+      position: relative;
+      width: 100%;
+      background: black;
+      z-index: 1000;
+    }
+
+    #sidebar .inner {
+      padding: 20px;
+    }
+  }
 				
 				</style>
 			</section>
